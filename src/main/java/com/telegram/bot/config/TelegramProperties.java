@@ -14,13 +14,13 @@ public class TelegramProperties {
     /**
      * Telegram API token generated from BotFather
      */
-    @NotEmpty(message = "Token must not be empty")
+    @NotEmpty(message = "telegram.token property must not be empty")
     private String token = "";
 
     /**
      * BotName that you've entered during setting up bot
      */
-    @NotEmpty(message = "Botname must not be empty")
+    @NotEmpty(message = "telegram.botname property must not be empty")
     private String botname = "";
 
     public String getToken() {
