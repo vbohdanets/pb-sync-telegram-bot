@@ -25,7 +25,6 @@ public class EmailSenderImpl implements EmailSender {
 
         MimeMessage message = javaMailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(message, MimeMessageHelper.MULTIPART_MODE_MIXED);
-
         helper.setFrom("PockerBook_Sender_bot");
         helper.setTo(to);
         helper.setSubject(subject);
