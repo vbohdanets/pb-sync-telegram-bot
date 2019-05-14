@@ -1,4 +1,4 @@
-package com.telegram.bot.telegram;
+package com.telegram.bot.telegram.validator;
 
 public interface FormatValidator {
     boolean isFormatValid(String filename);

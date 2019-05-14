@@ -1,6 +1,6 @@
-package com.telegram.bot.telegram.impl;
+package com.telegram.bot.telegram.validator;
 
-import com.telegram.bot.telegram.FormatValidator;
+import com.telegram.bot.telegram.validator.FormatValidator;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
