@@ -32,3 +32,4 @@ HELP.md
 /src/main/resources/application.yaml
 serializedMap.json
 *.log
+*.gz
